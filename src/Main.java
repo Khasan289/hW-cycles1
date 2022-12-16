@@ -78,7 +78,7 @@ public class Main {
     public static void task9() {
         System.out.println("Задача 9");
         int accumulation = 29_000;
-        int total = 0;
+        float total = 0f;
         for (int i = 1; i <= 12; i++) {
             total = total + total/100;
             total = total + accumulation;
@@ -87,6 +87,13 @@ public class Main {
 
     }
     public static void task10(){
+        System.out.println("Задача 10");
+
+
+        for (int i = 1; i<=10; i=i+1){
+            int number= i*2;
+            System.out.println("2 * " + i + " = " + number);
+        }
 
     }
 
